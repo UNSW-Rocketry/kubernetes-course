@@ -4,8 +4,8 @@ Kubernetes is an orchestration tool that manages the networking, deployment and 
 
 For all tasks, please document your process in report.md with a heading for each task. Specifically:
 
-    Any challenges you encountered (e.g., networking, storage) and how you overcame them.
-    Any interesting features or configurations you experimented with.
+- Any challenges you encountered (e.g., networking, storage) and how you overcame them.
+- Any interesting features or configurations you experimented with.
 
 
 ## Task 1
