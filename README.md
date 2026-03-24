@@ -1,19 +1,10 @@
 # Kubernetes Course
 
-Kubernetes is an orchestration tool that manages the networking, deployment and health of applications. It is the backbone of Rocketry's infrastructure, ensuring our projects run reliably. 
+Kubernetes is an orchestration tool that manages the networking, deployment and health of applications. It is the backbone of Rocketry's infrastructure, ensuring our services run reliably. 
+
+For this course, you should [fork and clone](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo#forking-a-repository) this repo, implement and push your solutions to GitHub.
 
 For all tasks, please document your process in report.md with a heading for each task. Specifically:
 
 - Any challenges you encountered (e.g., networking, storage) and how you overcame them.
 - Any interesting features or configurations you experimented with.
-
-
-## Task 1
-
-For task 1, we're going to deploy a popular open-source project: [Navidrome](https://www.navidrome.org/).
-
-The most straightforward approach is to use [minikube](https://minikube.sigs.k8s.io/docs/). By referring to the handbook and familiarising yourself with Kubernetes resources, you will be able to complete this task. It is recommended starting by translating the provided [Docker Compose](https://www.navidrome.org/docs/installation/docker/) file into manifests and applying them locally. Please place your Kubernetes configuration files in the navidrome/ directory.
-
-Success is defined as being able to access the Navidrome instance via localhost on your machine.
-
-If you would like to take this a step forward, you can experiemnt with configuring persistence or public routing, however they are not strictly necessary for this task.
