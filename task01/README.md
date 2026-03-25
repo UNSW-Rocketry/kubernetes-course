@@ -9,3 +9,14 @@ The most straightforward approach is to use [minikube](https://minikube.sigs.k8s
 Success is defined as being able to access the Navidrome instance via localhost on your machine and completing [report.md](../report.md).
 
 If you would like to take this a step further, you can experiemnt with configuring persistence or public routing, however they are not strictly necessary for this task.
+
+### (Optional) Simple Docker Implementation
+
+You can try out using the Docker compose file too if you've never used Docker before. 
+
+1. Install [Docker](https://www.docker.com)
+2. Make a file called docker-compose.yml
+3. Copy in the [Docker Compose](https://www.navidrome.org/docs/installation/docker/) contents into it
+4. In the directory, use the command `docker compose up`
+
+Your navidrome server should be up and running.
